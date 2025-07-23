@@ -38,4 +38,4 @@ Improve mobile responsiveness
 Ojei Onuwa Kelvin
 Frontend Developer | Tech Trainer | Creative Thinker
 📧 Email: ojeikelvin@yahoo.com
-🌐 Portfolio: https://github.com/Cyber-Globe/portfolio
+🌐 Portfolio: https://cyber-globe.github.io/portfolio/
