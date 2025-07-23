@@ -1,12 +1,41 @@
-# React + Vite
+🌍 Travel Journal App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React project that displays a collection of travel destinations using a clean and modern UI. The app showcases key information about different locations, including images, country names, Google Maps links, travel dates, and short descriptions.
 
-Currently, two official plugins are available:
+🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app dynamically renders a list of travel entries using data from a JavaScript file. It demonstrates the use of props, components, and stateful design in React. The layout consists of a header and multiple reusable entry cards.
 
-## Expanding the ESLint configuration
+📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Features
+
+- Reusable `Entry` component
+- Dynamic rendering using `data.js`
+- External image support
+- Responsive layout (basic)
+- Clean and modular file structure
+
+Folder Notes
+data.js contains the travel destination entries.
+
+Entry.jsx receives props and displays each entry card.
+
+App.jsx maps over data.js and renders all entries.
+
+Header.jsx displays the top navigation bar or title.
+
+📖 Future Enhancements
+Add animations or page transitions
+
+Fetch data from a live API
+
+Add a "like/save" feature for destinations
+
+Improve mobile responsiveness
+
+👨‍💻 Author
+Ojei Onuwa Kelvin
+Frontend Developer | Tech Trainer | Creative Thinker
+📧 Email: ojeikelvin@yahoo.com
+🌐 Portfolio: https://github.com/Cyber-Globe/portfolio
