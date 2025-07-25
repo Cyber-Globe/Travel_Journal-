@@ -11,16 +11,16 @@ function Entry(props) {
           <div className="second-section">
             <div className="marker">
               <img src={marker} alt="location-img" />
-              <span>{props.entry.country}</span>
+              <span>{props.country}</span>
               <p>
-                <a href={props.entry.googleMapsLink}>View on Google Maps</a>
+                <a href={props.googleMapsLink}>View on Google Maps</a>
               </p>
             </div>
-            <h2>{props.entry.title}</h2>
+            <h2>{props.title}</h2>
             <p className="date">
-              <strong>{props.entry.dates}</strong>
+              <strong>{props.dates}</strong>
             </p>
-            <p className="description">{props.entry.text}</p>
+            <p className="description">{props.text}</p>
           </div>
         </section>
       </div>

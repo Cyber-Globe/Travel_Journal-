@@ -4,7 +4,7 @@ import Entry from "./components/Entry.jsx";
 
 function App() {
   const entries = data.map((item) => {
-    return <Entry key={item.id} entry={item} img={item.img} />;
+    return <Entry key={item.id} {...item} img={item.img} />;
   });
 
   return (
